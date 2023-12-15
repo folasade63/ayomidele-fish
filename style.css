@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.farm {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 40px;
+}
+.part {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 60px;
+}
+.about {
+  text-align: center;
+  margin: 55px;
+}
+.visit {
+  margin: 30px;
+}
+.now{
+  font-size: 40px;
+  color: red;
+}
+.us {
+  font-size: 20px;
+  margin-top: 45px;
+  
+}
+.us p {
+  font-size: 15px;
+  margin-bottom: 50px;
+  padding-bottom: 35px;
+  margin-top: 20px;
+}
+.whole {
+ background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(fish\ img.jfif);
+  background-size: cover;
+  color: white;
+}
